@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <!-- css : stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Merriweather&family=Montserrat:wght@100;400&family=Noto+Sans&family=Roboto&family=Sacramento&family=Ubuntu&display=swap">
+    <!-- icons: font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>AMC Foodo</title>
+
+</head>
+<body>
+    <!-- header -->
+    <div class="logos">
+        <img class="logo2" src="images/amclogo2.png">
+        <h3 class="logo"> AMC Food Services</h3>
+    </div>
+        
+    <!-- sidebar -->
+
+        <div class="sidebar">
+            <div class="sidebar-menu">
+                <span class="fas fa-search"></span>
+                <a href="#">Search</a>
+            </div>
+            <div class="sidebar-menu">
+                <span class="fas fa-home"></span>
+                <a href="index.html">Home</a>
+            </div>
+            <div class="sidebar-menu">
+                <span class="fas fa-heart"></span>
+                <a href="#">Favs</a>
+            </div>
+            <div class="sidebar-menu">
+                <span class="fas fa-user"></span>
+                <a href="#"><a href="profile.html">Profile</a></a>
+            </div>
+            <div class="sidebar-menu">
+                <span class="fas fa-sliders-h"></span>
+                <a href="#"> <a href="swt.html"> SWT</a></a>
+            </div>
+        </div>
+        <div  class="msg">
+            <h1 class="any">Anythings with us!!</h1>
+                <p class="box">
+                    <label for="massege"></label>
+                    <textarea class="msgbox" name="massege" id="massege" rows="8" cols="80"></textarea>
+                </p>
+        </div>
+
+        <main>
+            <section class="boarder">
+              <h2  class="any">Our contact form</h2>
+      
+              <form class="contact_form" action="index.html" method="post">
+                <fieldset class="field">
+                  <legend>
+                    contact us!.
+                  </legend>
+                  <div >
+                  <p>
+                    <label for="firstName"> Name:-</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Your Name" required >
+                  </p>
+                  <br>
+                  <p>
+                    <label for="lastName">USN:-</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="1AMXXXXXXX" required >
+                  </p>
+                  <br>
+                  <p>
+                    <label for="email">Email:-</label>
+                    <input type="text" name="email" id="email" placeholder="Your Email" required >
+                  </p>
+                  <br>
+                  <p>
+                    <label for="password">Pass word:-</label>
+                    <input type="password" name="password" id="password" placeholder="password" required >
+                  </p>
+                  <br>
+                  <p>
+                    <label for="phone">Phone no:-</label>
+                    <input type="tel" name="phone" id="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+                  </p>
+                  <br>
+                  <!-- <p>
+                    <label for="decade">Favorite decade:-</label>
+                    <input type="number" name="decade" id="decade" min="1950" max="2030" step="5" >
+                  </p> -->
+                  <p>
+                      <label for="education">Your Qulification:</label>
+                      <input type="text" name="education" id="education" list="education-list">
+                      <datalist id="education-list">
+                        <!-- <option value="8th grade">
+                        <option value="10th grade">
+                        <option value="second pu"> -->
+                        <option value="2nd year">
+                        <option value="1st year">
+                        <option value="3rd year">
+                        <option value="4th year">
+                      </datalist>
+                  </p>
+                  <!-- <p>
+                    <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee" multiple size="5">
+                    <optgroup label="Coffees">
+                        <option value="regular coffee">Regular Coffee</option>
+                        <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Drinks">
+                        <option value="latte" selected>Latte</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="cortado">Cortado</option>
+                        <option value="americano">Americano</option>
+                    </optgroup>
+                    <option value="other">Other</option>
+                </select>
+                  </p> -->
+                </fieldset>
+                <br>
+                <div class="button">
+                    <button class="submit" type="button" name="Submit">Submit</button><br><br>
+                <button class="reset" type="reset" name="reset">Reset</button>
+                </div>
+                
+              </form>
+            </div>
+            </section>
+            <section class="address">
+              <h2>Our Address:-</h2>
+              <address class="ouraddress">
+                Singasandra, Harohalli, Kanakapura (tq), Ramanagara (dist)<br>
+                -562117.
+                <br><br>
+                phone:-<a href="tel:-5555555555">5555555555</a>
+      
+              </address>
+            </section>
+         </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
